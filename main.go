@@ -9,7 +9,7 @@ import (
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "findcakeday"
+	app.Name = "cakedaycli"
 	app.Usage = "Find your Reddit Cake Day"
 	app.Version = "1.0"
 	app.Action = func(c *cli.Context) {
